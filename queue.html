@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Queue</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+	<h1 class="text-center" style="margin: 30px">Queue</h1>
+
+	<div class="offset-md-3 col-md-6" style="margin-top: 100px; background-color: #f6f6f6; border-radius: 10px; padding: 10px">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-group">
+					<input class="form-control" id="data" type="text" name="data" placeholder="Enter The Data Here">
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="form-group">
+					<input class="form-control" id="time" type="number" name="time" placeholder="Time To Process">
+				</div>
+			</div>
+		</div>
+		<div class="col-md-12">
+			<div class="form-group">
+				<button class="form-control btn-primary" id="add-button">Add To Queue</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="offset-md-2 col-md-8" style="margin-top: 20px; background-color: #fafafa; border-radius: 10px; padding: 10px" id="queues">
+
+	</div>
+
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/queue.js"></script>
+</body>
+</html>
